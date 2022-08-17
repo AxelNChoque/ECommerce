@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce-c",
+  "version": "1.0.0",
+  "description": "E-Commerce Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BApplee/ECommerce.git"
+  },
+  "author": "Axel Choque - Imanol Arias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BApplee/ECommerce/issues"
+  },
+  "homepage": "https://github.com/BApplee/ECommerce#readme"
+}
