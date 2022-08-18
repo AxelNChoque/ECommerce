@@ -48,5 +48,10 @@
     .Header ul li a{
         display:none;
     }
-    
+    .Header ul p {
+        font-weight: bold;
+        font-size: 2.5em;
+        margin-left: -4em;
+  /*       margin-right: 3; */
+    }
 }
