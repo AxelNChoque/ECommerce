@@ -43,8 +43,8 @@
 .Header ul p {
     font-weight: bold;
     font-size: 2.5em;
-    margin-left: -1.5em;
-    margin-right: 3em;
+    margin-left: -4em;
+/*       margin-right: 3; */
 }
 .Header ul p:hover{
     cursor:pointer;
@@ -57,9 +57,5 @@
     .Hamburger {
         display:block;
     }
-
-}
-
-@media (min-width: 375px) {
 
 }
