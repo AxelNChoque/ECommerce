@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BApplee/ECommerce/issues"
   },
-  "homepage": "https://github.com/BApplee/ECommerce#readme"
+  "homepage": "https://github.com/BApplee/ECommerce#readme",
+  "dependencies": {
+    "react-icons": "^4.4.0"
+  }
 }

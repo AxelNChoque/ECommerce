@@ -8,16 +8,21 @@
     --md: 16px;
     --lg: 18px;
   }
+.Hamburger {
+    display:none;
+}
 .Header {
     border-bottom: 1px solid var(--very-light-pink);
     margin-left: 10em;
     margin-right: 10em;
+    
 }
 
 .Header ul {
 
     list-style: none;
     margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
     height: 5em;
@@ -29,6 +34,7 @@
     text-decoration: none;
     color: var(--very-light-pink);
     nav-left: 2em;
+    
 
 }
 .Header ul li a:hover{
@@ -48,5 +54,12 @@
     .Header ul li a{
         display:none;
     }
-    
+    .Hamburger {
+        display:block;
+    }
+
+}
+
+@media (min-width: 375px) {
+
 }
