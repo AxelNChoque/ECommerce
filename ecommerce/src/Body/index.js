@@ -1,9 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import img1 from '../images/image-product-1.jpg'
 import './index.css';
 
-
 const Body = () => {
+
+  let [count, setCount] = useState(0);
+
+  function incrementCount() {
+    count = count + 1;
+    setCount(count);
+  }
+  function decrementCount() {
+    if (count > 0) {
+      count = count - 1;
+      setCount(count);
+    }
+  }
+
   return (
     <>
       <img src={img1} alt="" />
@@ -19,6 +32,14 @@ const Body = () => {
           <h2 className='offer'>50%</h2>
         </div>
         <del>$250.00</del>
+      </div>
+      {/*   <div className='inputContainer'>
+        <input type="number" className="quantity" name="quantity" placeholder='0' min="1" max="99" />
+      </div> */}
+      <div className='inputContainer'>
+        <button onClick={decrementCount}>-</button>
+        <div className='count'>{count}</div>
+        <button onClick={incrementCount}>+</button>
       </div>
     </>
   )

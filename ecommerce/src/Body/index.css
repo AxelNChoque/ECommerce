@@ -65,3 +65,32 @@ img {
     font-weight: 700;
     font-size: 1rem;
 }
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.inputContainer .count {
+    height: 3.5em;
+    width: 90%;
+    vertical-align: middle;
+    line-height: 3.5em;
+    text-align: center;
+    background-color: hsl(223, 64%, 98%);
+    font-weight: 700;
+}
+
+.inputContainer button {
+    width: 10%;
+    height: 3.5em;
+    color: hsl(26, 100%, 55%);
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: hsl(223, 64%, 98%);
+    border: 0;
+    border-radius: 10px;
+}
