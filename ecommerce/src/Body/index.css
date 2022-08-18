@@ -1,3 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+}
 img{
     width: 100vw;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.title h3{
+    margin-bottom: 0.5em;
+    color: hsl(26, 100%, 55%);
+}
+
+.title h1{
+    margin-bottom: 0.5em;
+}
+
+.title p{
+    color:  hsl(219, 9%, 45%);
+}
+
+.pricing{
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing .offer{
+background-color: hsl(25, 100%, 94%);
+color: hsl(26, 100%, 55%);
+padding: 3px;
+border-radius: 5px;
+}
+
+.pricing del{
+color: hsl(219, 9%, 45%);
+font-weight: 400;
 }
