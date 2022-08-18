@@ -2,11 +2,14 @@ import React from "react";
 import './index.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
 const Header = () => {
-
+    const ima = () => {
+        alert('ima trolazo')
+    }
     return(
         <div className="Header">
-        <GiHamburgerMenu className="Hamburger"/>
             <ul>
+            <GiHamburgerMenu className="Hamburger" size='30' onClick={ima}/>
+                <div>
                 <p>
                     sneakers
                 </p>
@@ -35,8 +38,8 @@ const Header = () => {
                     Contact
                     </a>
                 </li>
+                </div>
             </ul>
-
         </div>
     )
 }

@@ -10,23 +10,22 @@
   }
 .Hamburger {
     display:none;
+    margin-left: 1em;
+    margin-top:1.5em;
+    margin-bottom: -3em;
 }
 .Header {
     border-bottom: 1px solid var(--very-light-pink);
-    margin-left: 10em;
-    margin-right: 10em;
-    
 }
-
-.Header ul {
-
+.Header ul div {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     height: 5em;
-
+    margin-left: 10em;
+    margin-right: 10em;
 }
 .Header ul li a {
     margin-right: 0 1em;
@@ -34,8 +33,6 @@
     text-decoration: none;
     color: var(--very-light-pink);
     nav-left: 2em;
-    
-
 }
 .Header ul li a:hover{
     cursor:pointer;
@@ -43,8 +40,8 @@
 .Header ul p {
     font-weight: bold;
     font-size: 2.5em;
-    margin-left: -4em;
-/*       margin-right: 3; */
+    margin-left: -1em;
+    margin-right: 3em;
 }
 .Header ul p:hover{
     cursor:pointer;
@@ -56,6 +53,9 @@
     }
     .Hamburger {
         display:block;
+    }
+    .Header div p {
+        margin-top: -0.4em;
     }
 
 }
