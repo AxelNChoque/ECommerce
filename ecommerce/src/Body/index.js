@@ -45,7 +45,7 @@ const Body = () => {
 
       <div className='cartContainer'>
         <button>
-          <img src={cartIcon}></img>
+          <i src={cartIcon} />
           Add to cart
         </button>
       </div>

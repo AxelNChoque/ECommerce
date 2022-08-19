@@ -96,18 +96,19 @@ img {
     border-radius: 10px;
 }
 
-/* .cartContainer {
-    display: flex;
-    flex-direction: column;
-} */
-
-.cartContainer .button {
+.cartContainer {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
     height: 3.5em;
 }
 
-.cartContainer .button img {
-    height: 10%;
-    width: 10%;
+.cartContainer .button {
+    width: 100%;
+}
+
+.cartContainer .button i {
+    background-size: 20px 30px;
 }
