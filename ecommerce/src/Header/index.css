@@ -46,7 +46,6 @@
 .Header ul p:hover{
     cursor:pointer;
 }
-
 @media (max-width: 375px) {
     .Header ul li a{
         display:none;
