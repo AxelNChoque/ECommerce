@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
 :root {
     --black: #000000;
     --white: #FFFFFF;
     --very-light-pink: #C7C7C7;
     --orange: #FC8D3A;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
-.Hamburger {
+.Burger{
     display:none;
-    color: #777473;
-    margin:0;
-    padding:0;
 }
 .Header div p{
     justify-content: space-between;
@@ -18,6 +21,7 @@
 }
 .Header {
     margin: 0;
+    display: flex;
     align-items: center;
 }
 
@@ -26,14 +30,15 @@ nav {
     justify-content: space-between;
     padding: 0 1em;
     border-bottom: 1px solid var(--very-light-pink);
+    
   }
-.image-avatar {
-    width:1em;
+.image-av {
+    width:1.5em;
+    margin-left: 1em;
 }
 .div-izq p {
     font-weight: bold;
     font-size: 2.5em;
-    
 }
 .div-der ul,
 .div-izq ul {
@@ -90,10 +95,10 @@ nav {
 .menu-mobile ul {
     padding: 0;
     list-style: none;
-  }
-  .menu-mobile ul li {
+ }
+.menu-mobile ul li {
     margin-bottom: 2em;
-  }
+}
 @media (min-width: 376px) {
     .menu-mobile {
         display:none;
@@ -103,7 +108,7 @@ nav {
     .div-izq ul{
         display: none;
     }
-    .Hamburger {
-        display: block;
+    .Burger{
+        display:block;
     }
 }
