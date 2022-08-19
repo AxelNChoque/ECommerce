@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import img1 from '../images/image-product-1.jpg'
+import cartIcon from '../images/icon-cart.svg'
 import './index.css';
 
 const Body = () => {
@@ -40,6 +41,13 @@ const Body = () => {
         <button onClick={decrementCount}>-</button>
         <div className='count'>{count}</div>
         <button onClick={incrementCount}>+</button>
+      </div>
+
+      <div className='cartContainer'>
+        <button>
+          <img src={cartIcon}></img>
+          Add to cart
+        </button>
       </div>
     </>
   )

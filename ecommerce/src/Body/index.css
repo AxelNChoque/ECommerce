@@ -94,3 +94,19 @@ img {
     border: 0;
     border-radius: 10px;
 }
+
+/* .cartContainer {
+    display: flex;
+    flex-direction: column;
+} */
+
+.cartContainer .button {
+    display: flex;
+    flex-direction: row;
+    height: 3.5em;
+}
+
+.cartContainer .button img {
+    height: 10%;
+    width: 10%;
+}
