@@ -106,6 +106,9 @@ const Header = () => {
                         </li>
                     </ul>
         </div>
+        <div className={`backgroundMenu ${open ? 'active' : 'inactive'}`}>
+
+        </div>
         </nav>
     )
 }

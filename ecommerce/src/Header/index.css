@@ -2,6 +2,8 @@
 
 * {
     font-family: 'Kumbh Sans', sans-serif;
+    
+
 }
 :root {
     --black: #000000;
@@ -9,6 +11,7 @@
     --very-light-pink: #C7C7C7;
     --orange: #FC8D3A;
     font-family: 'Kumbh Sans', sans-serif;
+    
 }
 
 .Burger{
@@ -23,6 +26,7 @@
     margin: 0;
     display: flex;
     align-items: center;
+    
 }
 
 nav {
@@ -30,6 +34,7 @@ nav {
     justify-content: space-between;
     padding: 0 1em;
     border-bottom: 1px solid var(--very-light-pink);
+    
     
   }
 .image-av {
@@ -51,6 +56,7 @@ nav {
 }
 .div-izq{
     display:flex;
+    align-items: center;
 }
 .div-izq ul {
     margin-left: 0em;
@@ -85,22 +91,35 @@ nav {
     left:0;
     width:70%;
     top:0;
-    bottom: 0;
+    bottom: -40%;
+}
+.backgroundMenu {
+    position:absolute;
+    width:30%;
+    right: 0;
+    top: 0;
+    bottom: -40%;
+    background: rgba(32,35,41,.8);
 }
 .menu-mobile a{
     text-decoration: none;
     color: var(--black);
     font-weight: bold;
+    
 }
 .menu-mobile ul {
     padding: 0;
     list-style: none;
+    
  }
 .menu-mobile ul li {
     margin-bottom: 2em;
 }
 @media (min-width: 376px) {
     .menu-mobile {
+        display:none;
+    }
+    .backgroundMenu {
         display:none;
     }
 }
