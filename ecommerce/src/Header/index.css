@@ -91,14 +91,14 @@ nav {
     left:0;
     width:70%;
     top:0;
-    bottom: -40%;
+    bottom: -50%;
 }
 .backgroundMenu {
     position:absolute;
     width:30%;
     right: 0;
     top: 0;
-    bottom: -40%;
+    bottom: -50%;
     background: rgba(32,35,41,.8);
 }
 .menu-mobile a{
